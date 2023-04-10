@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './components/layout/Navbar';
+import UserItem from './components/users/UserItem';
 import './App.css';
 
 class App extends Component{
@@ -10,6 +11,7 @@ class App extends Component{
     const showName = true;
     return (
       <div className='App'>
+        <UserItem></UserItem>
         <Navbar>Sharad</Navbar>
       </div>
     )
